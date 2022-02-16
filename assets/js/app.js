@@ -40,3 +40,4 @@ for (var i = 0; i < navLink.length; i++) {
     openNav.classList.toggle("mobile-open");
   });
 }
+document.addEventListener("touchstart", onTouchStart, { passive: true });
